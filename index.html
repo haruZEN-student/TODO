@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ミニTODOリスト</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>ミニTODO</h1>
+
+    <form id="form" class="row">
+      <input id="input" type="text" placeholder="例：ノートを買う" autocomplete="off" />
+      <button id="addBtn" type="submit">追加</button>
+    </form>
+
+    <ul id="list" class="list"></ul>
+
+    <p class="hint">※ 空入力は追加できません</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
